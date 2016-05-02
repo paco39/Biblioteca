@@ -10,5 +10,20 @@ package dominio;
  * @author Paco
  */
 public class OtrosEscritos extends Escrito {
+    private String tipoDeOtroEscrito;
+
+    /**
+     * @return the tipoDeOtroEscrito
+     */
+    public String getTipoDeOtroEscrito() {
+        return tipoDeOtroEscrito;
+    }
+
+    /**
+     * @param tipoDeOtroEscrito the tipoDeOtroEscrito to set
+     */
+    public void setTipoDeOtroEscrito(String tipoDeOtroEscrito) {
+        this.tipoDeOtroEscrito = tipoDeOtroEscrito;
+    }
     
 }

@@ -13,7 +13,7 @@ public class Recurso {
     private String fechaDePublicacion;
     private int numeroDeCopias;
     private int id;
-    private int nombre;
+    private int nombreDeRecurso;
 
     /**
      * @return the fechaDePublicacion
@@ -58,17 +58,18 @@ public class Recurso {
     }
 
     /**
-     * @return the nombre
+     * @return the nombreDeRecurso
      */
-    public int getNombre() {
-        return nombre;
+    public int getNombreDeRecurso() {
+        return nombreDeRecurso;
     }
 
     /**
-     * @param nombre the nombre to set
+     * @param nombreDeRecurso the nombreDeRecurso to set
      */
-    public void setNombre(int nombre) {
-        this.nombre = nombre;
+    public void setNombreDeRecurso(int nombreDeRecurso) {
+        this.nombreDeRecurso = nombreDeRecurso;
     }
+
     
 }

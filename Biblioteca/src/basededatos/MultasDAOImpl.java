@@ -5,15 +5,10 @@
  */
 package basededatos;
 
-import dominio.Recurso;
-
 /**
  *
  * @author Paco
  */
-public interface RecursoDAO {
-    
-    public Recurso buscarRecursoPorID(int id);
-    public 
+public class MultasDAOImpl implements MultasDAO{
     
 }
